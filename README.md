@@ -4,6 +4,7 @@
 
 #First I try to find the most frequent pattern, which is likely to have different meaning than others.
 
-#I aslo try to count different pattern 
-
 #After that, I find the revserve complement of it, proving that it is not due to randomness.
+
+#I also find the position of specific pattern on the genome.
+
