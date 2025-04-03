@@ -54,4 +54,5 @@ def complement(pattern):
     return comp
 
 # Example
-print(reverse_complement("ATCGTA"))  # Output: TACGAT
+print(reverse_complement("ATCGTA"))  
+# Output: TACGAT
