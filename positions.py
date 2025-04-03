@@ -14,4 +14,5 @@ def pattern_matching(pattern, genome):
 # Example
 genome = "GATATATGCATATACTT"
 pattern = "ATAT"
-print(pattern_matching(pattern, genome))  # Output: [1, 3, 9]
+print(pattern_matching(pattern, genome))  
+# Output: [1, 3, 9]
