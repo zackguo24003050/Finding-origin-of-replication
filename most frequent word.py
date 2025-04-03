@@ -1,7 +1,6 @@
+# Return the most frequent k-mers in the given text.
 def frequent_words(text, k):
-    """
-    Return the most frequent k-mers in the given text.
-    """
+    
     words = []
     freq_map = frequency_map(text, k)
     max_count = max(freq_map.values())
@@ -13,10 +12,9 @@ def frequent_words(text, k):
     return words
 
 
+# Return a frequency map of all k-mers of length k in text.
 def frequency_map(text, k):
-    """
-    Return a frequency map of all k-mers of length k in text.
-    """
+
     freq = {}
     n = len(text)
 
