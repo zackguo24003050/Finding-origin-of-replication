@@ -20,7 +20,7 @@ def frequency_map(text, k):
 
     for i in range(n - k + 1):
         kmer = text[i:i + k]
-        freq[kmer] = freq.get(kmer, 0) + 1  # cleaner way to count
+        freq[kmer] = freq.get(kmer, 0) + 1  
 
     return freq
 
